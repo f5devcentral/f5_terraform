@@ -1,5 +1,5 @@
 # Azure Environment
-location      = "eastus"
+location      = "eastus2"
 adminSrcAddr  = "0.0.0.0/0"
 resourceOwner = "fred"
 
