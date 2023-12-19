@@ -45,3 +45,15 @@ variable "f5_cloud_failover_label" {
   default     = "myFailover"
   description = "This is a tag used for F5 Cloud Failover Extension to identity which cloud objects to move during a failover event."
 }
+
+variable "tfc_organization" {
+  type        = string
+  default     = "null"
+  description = "Terraform Cloud Organization"
+}
+
+variable "tfc_workspaces" {
+  type        = string
+  default     = "null"
+  description = "Terraform Cloud Workspace"
+}

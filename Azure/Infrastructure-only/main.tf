@@ -4,15 +4,6 @@
 provider "azurerm" {
   features {}
 }
-terraform {
-  cloud {
-    organization = "appdelivery"
-
-    workspaces {
-      name = "Infrastructure-only"
-    }
-  }
-}
 # Create a random id
 resource "random_id" "buildSuffix" {
   byte_length = 2
