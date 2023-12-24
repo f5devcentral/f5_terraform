@@ -3,7 +3,7 @@ name: "Azure Infrastructure-only"
 on:
   push:
     branches:
-      - az-infra-deploy
+      - az-infra-apply
   pull_request:
 
 jobs:
