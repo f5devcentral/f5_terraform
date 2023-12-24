@@ -1,4 +1,4 @@
-name: "Azure Infrastructure-only"
+name: "Azure Infrastructure-Destroy"
 
 on:
   push:
